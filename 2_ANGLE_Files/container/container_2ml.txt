@@ -1,0 +1,5 @@
+<container type="Cylindrical" name="2 Vial ML 2015-" description="Vial usado desde 2015">
+<shape innerRadius="0.5826" sideThickness="0.1459" bottomThickness="0.0977" footHeight="0.0841" />
+<material name="Plastic" />
+</container>
+<source radius="0.5826" height="1.8182">

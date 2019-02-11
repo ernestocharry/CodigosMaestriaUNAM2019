@@ -1,0 +1,16 @@
+<detector type="Well" name="G4 54-P51393A" description="Gamma 4">
+<crystal height="6.91" radius="3.08" />
+<well depth="5.51" radius="1.095" />
+<inactiveGe topUpperThickness="0" topLowerThickness="3E-5" sideInnerThickness="3E-5" sideOuterThickness="0.07" />
+<endCap topUpperThickness="0.2032" topLowerThickness="0.2032" sideThickness="0.05">
+<material name="Aluminium" />
+</endCap>
+<antimicrophonicShield topUpperThickness="0.16" topLowerThickness="0" sideThickness="0">
+<material name="Cooper" density="8.96">
+<elements>
+<element symbol="Cu" massFraction="100" />
+</elements>
+</material>
+</antimicrophonicShield>
+<vacuum topUpperThickness="0.839" bottomUpperThickness="0.0279" topLowerThickness="0.399" bottomLowerThickness="0.399" sideOuterThickness="0.13" sideInnerThickness="0.13" />
+</detector>

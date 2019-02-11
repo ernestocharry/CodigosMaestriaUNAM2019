@@ -1,0 +1,5 @@
+<container type="Cylindrical" name="1 Vial CM 2010-2015" description="Vial en uso desde 2010 hasta 2015">
+<shape innerRadius="0.5585" sideThickness="0.1655" bottomThickness="0.166475" footHeight="0.0774" />
+<material name="Plastic" />
+</container>
+<source radius="0.5585" height="1.7559">

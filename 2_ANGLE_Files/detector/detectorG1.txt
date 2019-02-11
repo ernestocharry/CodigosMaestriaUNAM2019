@@ -1,0 +1,16 @@
+<detector type="Well" name="G1 49-P22600A" description="GAMMA 1">
+<crystal height="6.48" radius="2.73" />
+<well depth="5.56" radius="1.14" />
+<inactiveGe topUpperThickness="0" topLowerThickness="3E-5" sideInnerThickness="3E-5" sideOuterThickness="0.07" />
+<endCap topUpperThickness="0.2032" topLowerThickness="0.1" sideThickness="0.05">
+<material name="Aluminium" />
+</endCap>
+<antimicrophonicShield topUpperThickness="0.16" topLowerThickness="0" sideThickness="0">
+<material name="Copper" density="8.92">
+<elements>
+<element symbol="Cu" massFraction="100" />
+</elements>
+</material>
+</antimicrophonicShield>
+<vacuum topUpperThickness="0.64" bottomUpperThickness="0.2" topLowerThickness="0.78" bottomLowerThickness="0.78" sideOuterThickness="0.18" sideInnerThickness="0.18" />
+</detector>

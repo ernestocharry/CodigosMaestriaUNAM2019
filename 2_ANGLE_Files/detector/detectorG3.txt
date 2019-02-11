@@ -1,0 +1,16 @@
+<detector type="Well" name="G3 57-P 13768A v2" description="GAMMA 3 vacuum side thickness from G4">
+<crystal height="6.97" radius="3.335" />
+<well depth="5.67" radius="1.05" />
+<inactiveGe topUpperThickness="0" topLowerThickness="3E-5" sideInnerThickness="3E-5" sideOuterThickness="0" />
+<endCap topUpperThickness="0.0254" topLowerThickness="0.1" sideThickness="0.05">
+<material name="Aluminium" />
+</endCap>
+<antimicrophonicShield topUpperThickness="0.16" topLowerThickness="0" sideThickness="0">
+<material name="Cooper" density="8.96">
+<elements>
+<element symbol="Cu" massFraction="100" />
+</elements>
+</material>
+</antimicrophonicShield>
+<vacuum topUpperThickness="0.42" bottomUpperThickness="0.42" topLowerThickness="0.792" bottomLowerThickness="0.792" sideOuterThickness="0.13" sideInnerThickness="0.13" />
+</detector>
